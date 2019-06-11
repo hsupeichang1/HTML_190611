@@ -3,13 +3,31 @@
 
 <head>
     <title> HTML </title>
+
+    <style>
+        a {
+            text-decoration: none;
+
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body>
     <!-- 外部網址連結 -->
-    
-    <!-- 內部網頁檔案 -->
-    
+    當僅需要編譯好的 CSS 或 JS，你可以直接s使用 <a href="https://www.bootstrapcdn.com/">BootstrapCDN</a> 。
+
+    <!-- 內部網頁檔案 target->目標其他頁面開啟-->
+    <p>開啟 <a href="02_css.html" target="_blank">02_css.html</a> 檔案</p>
+
     <!-- 連結至網頁內元素 (id) -->
+    <a href="#here">點選跳轉</a>
+    <img src="img/cat.png" alt="">
+
+    <p id="here">跳轉到這邊</p>
 </body>
+
 </html>

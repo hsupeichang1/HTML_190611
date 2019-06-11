@@ -39,4 +39,4 @@ B. 快速鍵 (Windows)：https://code.visualstudio.com/docs/getstarted/keybindin
 步驟:
 	1. github > Import Repository > URL https://github.com/iiiTechDemo/HTML_190611.git > name HTML_190611 > Import
 	2. cmd > cd .. (C:/) > mkdir Lab_HTML (建新資料夾) > cd Lab_HTML > code . (自動打開 vscode)
-	3. 
+	3. 終端機 > git clone https://github.com/hsupeichang1/HTML_190611.git > cd HTML_190611 > 測試修改檔案 > git add . > git commit -m "第一次修改上傳測試" > git push origin master
