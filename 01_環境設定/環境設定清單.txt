@@ -34,4 +34,9 @@ B. 快速鍵 (Windows)：https://code.visualstudio.com/docs/getstarted/keybindin
 	. Shift + Alt + ↓ / ↑：可以複製一行
 	
 
-	測試更新檔案
+測試更新檔案
+
+步驟:
+	1. github > Import Repository > URL https://github.com/iiiTechDemo/HTML_190611.git > name HTML_190611 > Import
+	2. cmd > cd .. (C:/) > mkdir Lab_HTML (建新資料夾) > cd Lab_HTML > code . (自動打開 vscode)
+	3. 
