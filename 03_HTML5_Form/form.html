@@ -48,8 +48,69 @@
             <input type="radio" name="age" id="a" value="a"> <label for="a">20-30</label>
             <input type="radio" name="age" id="b" value="b"> <label for="b">30-40</label>
         </div>
+        <div>
+            <label for="birthday">出生日期:</label>
+            <input type="date" id="birthday">
+        </div>
+
+        <div>
+            <label for="birthtime">出生時間:</label>
+            <input type="time" id="birthtime">
+        </div>
+
+        <div>
+            <span>使用過那些軟體(多選):</span>
+            <input type="checkbox" name="skill" id="Word" value="Word"> <label for="Word">Word</label>
+            <input type="checkbox" name="skill" id="Excel" value="Excel"> <label for="Excel">Excel</label>
+            <input type="checkbox" name="skill" id="PowerPoint" value="PowerPoint"> <label
+                for="PowerPoint">PowerPoint</label>
+            <input type="checkbox" name="skill" id="VBC" value="VBC"> <label for="VBC">Visual Basic Code</label>
+            <input type="checkbox" name="skill" id="PHP" value="PHP"> <label for="PHP">PHP</label>
+            <input type="checkbox" name="skill" id="MySQL" value="MySQL"> <label for="MySQL">MySQL</label>
+        </div>
+
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email">
+        </div>
+
+        <div>
+            <label for="favcolor">最喜歡的顏色:</label>
+            <input type="color" value="" id="favcolor">
+        </div>
+
+        <div>
+            <label for="height">身高:</label>
+            <input type="range" min="140" max="200" step="1" id="height" oninput="outputUpdate(value)">
+            <output id="result"></output>
+        </div>
+
+        <div>
+            <label for="city">居住地:</label>
+            <select name="city" id="city">
+                <optgroup label="Taipei">
+                    <option value="">中山</option>
+                    <option value="">淡水</option>
+                    <option value="">南港</option>
+                </optgroup>
+                <optgroup label="Taichung">
+                    <option value="">中區</option>
+                    <option value="">南屯區</option>
+                    <option value="">北屯區</option>
+                </optgroup>
+
+            </select>
+        </div>
+        <input type="submit" value="送出通訊錄">
 
     </form>
+
+
+    <script>
+        function outputUpdate(vol){
+            document.getElementById("result").value = vol;
+        }
+    </script>
 </body>
 
 </html>
